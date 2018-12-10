@@ -40,7 +40,7 @@ Keras: 2.2.4
 
 	# Answer questions following while installation begin
 	# You are attempting to install on an unsupported configuration. Do you wish to continue? y
-	# **Install NVIDIA Accelerated Graphics Driver for Linux-x86_64 384.81? n**
+	# ** Install NVIDIA Accelerated Graphics Driver for Linux-x86_64 384.81? n **
 	# Install the CUDA 9.0 Toolkit? y
 
 
