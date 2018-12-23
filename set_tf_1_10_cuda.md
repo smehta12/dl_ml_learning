@@ -23,11 +23,6 @@ Keras: 2.2.4
 	sudo apt install gcc-6
 	sudo apt install g++-6
 
-        # set up symlinks for gcc/g++
-        sudo ln -s /usr/bin/gcc-6 /usr/local/cuda/bin/gcc
-        sudo ln -s /usr/bin/g++-6 /usr/local/cuda/bin/g++
-
-
 3: Install CUDA Toolkit:
 	Goto https://developer.nvidia.com/cuda-90-download-archive. Select the appropriate options and download the .run file
 	Commandline:
@@ -49,6 +44,10 @@ Keras: 2.2.4
 	echo 'export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64:$LD_LIBRARY_PATH' >> ~/.bash.rc
 	source ~/.bashrc
 
+	# set up symlinks for gcc/g++
+        sudo ln -s /usr/bin/gcc-6 /usr/local/cuda/bin/gcc
+        sudo ln -s /usr/bin/g++-6 /usr/local/cuda/bin/g++
+	
 4: Install cuDNN v7.0.5
 	Goto https://developer.nvidia.com/compute/machine-learning/cudnn/secure/v7.0.5/prod/9.0_20171129/cudnn-9.0-linux-x64-v7. 
 	Login into the account and download it.
